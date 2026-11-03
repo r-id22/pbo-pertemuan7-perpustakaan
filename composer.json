@@ -1,0 +1,17 @@
+{
+    "name": "rahmansyah/perpustakaan",
+    "description": "Proyek Perpustakaan - PBO Pertemuan 7 UMPR",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahmansyah",
+            "email": "24.24.032255@umpwr.ac.id"
+        }
+    ],
+    "require": {}
+}
