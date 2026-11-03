@@ -18,6 +18,21 @@ class Peminjaman
         $this->tanggalPinjam = date('Y-m-d');
     }
 
+    public function getAnggota(): Anggota
+    {
+        return $this->anggota;
+    }
+
+    public function getBuku(): Buku
+    {
+        return $this->buku;
+    }
+
+    public function getTanggalPinjam(): string
+    {
+        return $this->tanggalPinjam;
+    }
+
     public function getDetailPeminjaman(): string
     {
         return "Anggota: {$this->anggota->getNama()} (ID: {$this->anggota->getIdAnggota()}) " .
